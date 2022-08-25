@@ -4,7 +4,7 @@ Carina Sutter
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|25.08.2022| 0.0.1| |
+|25.08.2022| 0.0.1| Habe geplant und schonmal einen rohen Aufbau des Codes geschrieben. | 
 |       | ...     |                                                              |
 |       | 1.0.0   |                                                              |
 
