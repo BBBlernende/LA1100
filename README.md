@@ -15,28 +15,28 @@ Carina Sutter
 Ich werde ein number guessing game erstellen. Das Programm muss bei der Eingabe einer Zahle sagen können, ob sie zu hoch, zu tief oder der Benutzer die Zahl erraten hat.
 
 ### 1.2 User Stories
-
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |informieren      | Funktional | über Informieren die ich brauche für den Code und was ich noch nicht weiss.
-| 2    | Lernpaln erstellen und alles sammel an Infos die ich gefunden habe|Qualität|Ein Word dokument machen und alle Infos reinkopieren oder selber verfassen.|
-| 3    | PAP | Qualität| Ablauf wie Programm funktionieren soll|
-| 4    | PAP 2 | Qualität| was muss der User machen wenn er das Programm ausführt|
-| 5    | 
+| 1    |User muss eine beliebige Zahl eingeben. | Funktionell | Als ein User möchte ich eine beliebige Zahl eingeben, damit mir das Programm sagt, ob ich sie richtig erraten habe, sie zu hoch geraten habe oder zu tief geraten habe. |
+| 2    |User muss erneut eine beliebige Zahl eingeben, falls sie zu hoch oder zu tief ist. | Funktionell | als ein User möchte ich erneut eine Zahl eingeben falls ich sie falsch geraten habe, damit ich mehr versuche habe als User. |
+| 3    |User kann am Ende entscheiden, ob er nochmal spielen möchte oder nicht. | Qualität| Als ein User möchte ich einen Button drücken um erneut zu spielen oder das Spiel zu beenden, damit es simple bleibt. |
+| 4    | User bekommt eine Verabschiedung wenn er sich entscheidet zu gehen| Qualität| Als ein User möchte ich Verabschiedet werden damit ich mich respektiert fühle. |
 
 ### 1.3 Testfälle
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  | keine Informationen und Ahnung wie ich vorgehen sollte|Internet recherchiert|Mehr wissen und Ahnung wie ich Vorgehen möchte|
-| 2.1  |Keinen Überblick über was ich bis jetzt hatte vom Internet|Alles Strukturiert im Word dargestellt und Screenshots gemacht um keine Fehler zu haben|
-| 3.1  | Keine Ahnung wie Programm ablaufe würde| PAP alles geplant und eingegeben| Einen Grundplan bekommen was ich muss machen|
-
+| 1.1  | User startet das Spiel| beliebige Zahl| Es wird erwartet, dass das Programm entweder sagt, dass die geratene Zahl höcher ist, tiefer ist als die Zahl oder der User die Zahl erraten hat.|
+| 2.1  | User möchte nochmals einen Versuch haben| gibt eine erneute beliebige Zahl ein. | Es wird erwartet, dass das Programm erneut sagt das entweder die geratene Zahl höcher ist, tiefer ist als die random Zahl oder der User die Zahl erraten hat.|
+| 3.1 | User hat die Zahl erraten. | erneut spielen| Das Programm fängt von vorne an. |
+| 3.2 | User hat die Zahl erraten. | spiel beenden| Das Programm sagt auf Wiedersehen. |
 
 ### 1.4 Diagramme & Dokumente
 
 ![Screenshot 2022-08-25 085923](https://user-images.githubusercontent.com/111045656/186597077-9529cbb2-0c40-45b6-8f7b-6828beafe5b0.png)
-![Screenshot 2022-08-25 112943](https://user-images.githubusercontent.com/111045656/186629514-0855dbf1-5b8d-4299-aaaa-bd1dae973c5f.png)[Lernplan LA1100 NumberGuessingGame.odt](https://github.com/BBBlernende/LA1100/files/9423356/Lernplan.LA1100.NumberGuessingGame.odt)
+![Screenshot 2022-08-25 112943](https://user-images.githubusercontent.com/111045656/186629514-0855dbf1-5b8d-4299-aaaa-bd1dae973c5f.png)
+
+[Lernplan LA1100 NumberGuessingGame.odt](https://github.com/BBBlernende/LA1100/files/9423356/Lernplan.LA1100.NumberGuessingGame.odt)
 
 
 
