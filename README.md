@@ -19,7 +19,7 @@ Ich werde ein number guessing game erstellen. Das Programm muss bei der Eingabe 
 | ---- | --------------- | ---- | ---------------------------------- |
 | 1    |User muss eine beliebige Zahl eingeben. | Funktionell | Als ein User möchte ich eine beliebige Zahl eingeben, damit mir das Programm sagt, ob ich sie richtig erraten habe, sie zu hoch geraten habe oder zu tief geraten habe. |
 | 2    |User muss erneut eine beliebige Zahl eingeben, falls sie zu hoch oder zu tief ist. | Funktionell | als ein User möchte ich erneut eine Zahl eingeben falls ich sie falsch geraten habe, damit ich mehr versuche habe als User. |
-| 3    |User kann am Ende entscheiden, ob er nochmal spielen möchte oder nicht. | Qualität| Als ein User möchte ich einen Button drücken um erneut zu spielen oder das Spiel zu beenden, damit es simple bleibt. |
+| 3    |User kann am Ende entscheiden, ob er nochmal spielen möchte oder nicht. | Qualität| Als ein User möchte ich eingeben können ob ich erneut spielen möchte oder das Spiel beenden möchte, damit es simple bleibt. |
 | 4    | User bekommt eine Verabschiedung wenn er sich entscheidet zu gehen| Qualität| Als ein User möchte ich Verabschiedet werden damit ich mich respektiert fühle. |
 
 ### 1.3 Testfälle
@@ -45,10 +45,12 @@ Ich werde ein number guessing game erstellen. Das Programm muss bei der Eingabe 
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  | ende Lektion|           | mehr Informationen finden für den Lehrplan|30 min. - 1h|
-| 2.B  | ende Lektion|           | Lehrplan fertig stellen|30 min. - 45 min.|
-| 3.C  | nächste Woche|           | Genauer damit ich mir das Programm und den zukünftigen Code besser vorstellen|30 min. - 45 min.
-| 4.D  | nächste Woche|           | Fertig stellen| 15 min. - 30 min.
+| 1.A  |25.08.2022|          | mehr Informationen finden für den Lehrplan|30 min. - 1h|
+| 2.B  |25.08.2022|          | Lehrplan fertig stellen|30 min. - 45 min.|
+| 3.C  |1.09.2022|           | Genauer damit ich mir das Programm und den zukünftigen Code besser vorstellen|30 min. - 45 min.|
+| 4.D  |1.09.2022|           | Fertig stellen| 15 min. - 30 min.|
+| 5.E  |1.09.2022|           |Nochmal alles durchgehen wenn nötig verbessern oder von mehreren Quellen Code Beispiele finden|5 min.|
+| 6.F  |1.09.2022|           | Coden | 2-3 Stunden |
 
 Total: 105 min. - 180 min. = 1h und 45 min. - 3h
 
@@ -61,8 +63,12 @@ Total: 105 min. - 180 min. = 1h und 45 min. - 3h
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       |           |               |                   |
-| ...  |       |           |               |                   |
+| 1.A  |25.08.2022|           |30 min. - 1h|      40 min.      |
+| 2.B  |1.09.2022 |           |30 - 45 min |      30 min.      |
+| 3.C  |1.09.2022 |           |30 - 45 min |      20 min.      |
+| 4.D  |1.09.2022 |           |15 - 30 min |      10 min.      |
+| 5.E  |1.09.2022 |           |5 min       |       5 min.      |
+| 6.F  |1.09.2022 |           | 2 - 3 h    |
 
 ✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
 
