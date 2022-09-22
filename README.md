@@ -7,6 +7,8 @@ Carina Sutter
 | 25.08.2022| 0.0.1   | Habe geplant und schonmal einen rohen Aufbau des Codes geschrieben. | 
 | 15.09.2022| 0.0.2   | Habe das geplante implementiert                                     |
 | 22.09.2022| 1.0.0   | Alles kontrollieren und Auswerten                                   |
+| 22.09.2022| 1.0.1   | Projekt-Dokumentation fertiggestellt.                               |
+
 
 ## 1 Informieren
 
@@ -99,3 +101,5 @@ Test fazit: Das Programm ist so abgelaufen wie Ich es geplant habe.
 ## 6 Auswerten
 
 ✍️ Fügen Sie hier eine Verknüpfung zu Ihrem
+
+https://github.com/BBBlernende/LA1100/blob/main/Lern-Bericht.md#lern-bericht
