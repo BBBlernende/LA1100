@@ -4,9 +4,9 @@ Carina Sutter
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|25.08.2022| 0.0.1| Habe geplant und schonmal einen rohen Aufbau des Codes geschrieben. | 
-|       | ...     |                                                              |
-|       | 1.0.0   |                                                              |
+| 25.08.2022| 0.0.1   | Habe geplant und schonmal einen rohen Aufbau des Codes geschrieben. | 
+| 15.09.2022| 0.0.2   | Habe das geplante implementiert                                     |
+| 22.09.2022| 1.0.0   | Alles kontrollieren und Auswerten                                   |
 
 ## 1 Informieren
 
@@ -18,24 +18,24 @@ Ich werde ein number guessing game erstellen. Das Programm muss bei der Eingabe 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
 | 1    |User muss eine beliebige Zahl eingeben. | Funktionell | Als ein User möchte ich eine beliebige Zahl eingeben, damit mir das Programm sagt, ob ich sie richtig erraten habe, sie zu hoch geraten habe oder zu tief geraten habe. |
-| 2    |User muss erneut eine beliebige Zahl eingeben, falls sie zu hoch oder zu tief ist. | Funktionell | als ein User möchte ich erneut eine Zahl eingeben falls ich sie falsch geraten habe, damit ich mehr versuche habe als User. |
-| 3    |User kann am Ende entscheiden, ob er nochmal spielen möchte oder nicht. | Funktionell | Als ein User möchte ich eingeben können ob ich erneut spielen möchte oder das Spiel beenden möchte, damit es simple bleibt. |
-| 4    | User bekommt eine Verabschiedung wenn er sich entscheidet zu gehen| Funktionell | Als ein User möchte ich Verabschiedet werden damit ich mich respektiert fühle. |
-| 5    | User bekommt neue Zahl wenn er Spiel widerholt. | Funktionell | Als User möchte ich, wenn ich das Spiel neu starte, eine neue Nummer haben und nicht die gleiche wie beim vorherigen Spiel. |
-| 6    | User bekommt  angegeben wie viele versuche er gebraucht hat um die zahl zu erraten| Funtionell | als user möchte ich die Anzahl von meinen Versuchen wissen.|
-| 7    | Gestaltung. | Qualität | Als User möchte ich kein langweiliges Programm sonder das es ansprechend aussieht |
-| 8    | Gestaltung. | Qualität | Als Usser möchte ich ein Emoji wenn ich die Nummer erraten habe.|
+| 2    |User muss erneut eine beliebige Zahl eingeben, falls sie zu hoch oder zu tief ist. | Funktionell | als ein User möchte ich erneut eine Zahl eingeben, falls ich sie falsch geraten habe, damit ich mehr versuche habe als User. |
+| 3    |User kann am Ende entscheiden, ob er nochmal spielen möchte oder nicht. | Funktionell | Als ein User möchte ich eingeben können, ob ich erneut spielen möchte oder das Spiel beenden möchte, damit es simple bleibt. |
+| 4    | User bekommt eine Verabschiedung, wenn er sich entscheidet zu gehen| Funktionell | Als ein User möchte ich verabschiedet werden damit ich mich respektiert fühle. |
+| 5    | User bekommt neue Zahl, wenn er Spiel wiederholt. | Funktionell | Als User möchte ich, wenn ich das Spiel neu starte, eine neue Nummer haben und nicht die gleiche wie beim vorherigen Spiel. |
+| 6    | User bekommt angegeben wie viele versuche er gebraucht hat um die Zahl zu erraten| Funktionell | als User möchte ich die Anzahl von meinen Versuchen wissen.|
+| 7    | Gestaltung. | Qualität | Als User möchte ich kein langweiliges Programm sondern das es ansprechend aussieht |
+| 8    | Gestaltung. | Qualität | Als User möchte ich ein Emoji wenn ich die Nummer erraten habe. |
 
 ### 1.3 Testfälle
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  | User startet das Spiel| beliebige Zahl| Es wird erwartet, dass das Programm entweder sagt, dass die geratene Zahl höcher ist, tiefer ist als die Zahl oder der User die Zahl erraten hat.|
-| 2.1  | User möchte nochmals einen Versuch haben| gibt eine erneute beliebige Zahl ein. | Es wird erwartet, dass das Programm erneut sagt das entweder die geratene Zahl höcher ist, tiefer ist als die random Zahl oder der User die Zahl erraten hat.|
+| 1.1  | User startet das Spiel| beliebige Zahl| Es wird erwartet, dass das Programm entweder sagt, dass die geratene Zahl höher ist, tiefer ist als die Zahl oder der User die Zahl erraten hat.|
+| 2.1  | User möchte nochmals einen Versuch haben| gibt eine erneute beliebige Zahl ein. | Es wird erwartet, dass das Programm erneut sagt das entweder die geratene Zahl höher ist, tiefer ist als die random Zahl oder der User die Zahl erraten hat.|
 | 3.1 | User hat die Zahl erraten. | erneut spielen| Das Programm fängt von vorne an. |
 | 4.1 | User hat die Zahl erraten. | spiel beenden| Das Programm sagt auf Wiedersehen. |
-| 6.1 | User hat Zahl erraten. | spiel beendet | Programm gibt aus wie viele Versuche man hatte. |
-| 7.1 | User ist Spiel am spielen | | Jede Zeile ist Farbig. |
+| 5.1 | User hat Zahl erraten. | spiel beendet | Programm gibt aus wie viele Versuche man hatte. |
+| 6.1 | User ist Spiel am Spielen | | Jede Zeile ist Farbig. |
 
 
 ### 1.4 Diagramme & Dokumente
@@ -53,19 +53,19 @@ Ich werde ein number guessing game erstellen. Das Programm muss bei der Eingabe 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
 | 1.A  |25.08.2022|          | mehr Informationen finden für den Lehrplan|30 min. - 1h|
-| 2.B  |25.08.2022|          | Lehrplan fertig stellen|30 min. - 45 min.|
-| 3.C  |1.09.2022|           | Genauer damit ich mir das Programm und den zukünftigen Code besser vorstellen|30 min. - 45 min.|
-| 4.D  |1.09.2022|           | Fertig stellen| 15 min. - 30 min.|
-| 5.E  |1.09.2022|           |Nochmal alles durchgehen wenn nötig verbessern oder von mehreren Quellen Code Beispiele finden|5 min.|
-| 6.F  |1.09.2022|           | Coden | 2-3 Stunden |
-| 7.G  |15.09.2022|          | Gestaltung| 40 minuten|
+| 2.A  |25.08.2022|          | Lehrplan fertig stellen|30 min. - 45 min.|
+| 3.A  |1.09.2022|           | Genauer damit ich mir das Programm und den zukünftigen Code besser vorstellen|30 min. - 45 min.|
+| 4.A  |1.09.2022|           | Fertig stellen| 15 min. - 30 min.|
+| 5.A  |1.09.2022|           |Nochmal alles durchgehen wenn nötig verbessern oder von mehreren Quellen Code Beispiele finden|5 min.|
+| 6.A  |1.09.2022|           | Coden | 2-3 Stunden |
+| 7.A  |15.09.2022|          | Gestaltung| 40 Minuten|
 
 Total: 105 min. - 180 min. = 1h und 45 min. - 3h
 
 
 ## 3 Entscheiden
 
-✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie im Bezug auf Ihre User Stories und die Implementierung getroffen haben.
+✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie in Bezug auf Ihre User Stories und die Implementierung getroffen haben.
 
 ## 4 Realisieren
 
@@ -87,20 +87,15 @@ Total: 105 min. - 180 min. = 1h und 45 min. - 3h
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| 1.1  |   22.09.2022    | Funktioniert| Carina Sutter |
+| 2.1  |   22.09.2022    | Funktioniert| Carina Sutter |
+| 3.1  |   22.09.2022    | Funktioniert| Carina Sutter |
+| 4.1  |   22.09.2022    | Funktioniert| Carina Sutter |
+| 5.1  |   22.09.2022    | Funktioniert| Carina Sutter |
+| 6.1  |   22.09.2022    | Funktioniert| Carina Sutter |
+Test fazit: Das Programm ist so abgelaufen wie Ich es geplant habe.
 
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
-
-### 5.2 Exploratives Testen
-
-| BR-№ | Ausgangslage | Eingabe | Erwartete Ausgabe | Tatsächliche Ausgabe |
-| ---- | ------------ | ------- | ----------------- | -------------------- |
-| I    |              |         |                   |                      |
-| ...  |              |         |                   |                      |
-
-✍️ Verwenden Sie römische Ziffern für Ihre Bug Reports, also I, II, III, IV etc.
 
 ## 6 Auswerten
 
-✍️ Fügen Sie hier eine Verknüpfung zu Ihrem 
+✍️ Fügen Sie hier eine Verknüpfung zu Ihrem
