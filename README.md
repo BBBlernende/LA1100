@@ -20,7 +20,7 @@ Ich werde ein number guessing game erstellen. Das Programm muss bei der Eingabe 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
 | 1    |User muss eine beliebige Zahl eingeben. | Funktionell | Als ein User möchte ich eine beliebige Zahl eingeben, damit mir das Programm sagt, ob ich sie richtig erraten habe, sie zu hoch geraten habe oder zu tief geraten habe. |
-| 2    |User muss erneut eine beliebige Zahl eingeben, falls sie zu hoch oder zu tief ist. | Funktionell | als ein User möchte ich erneut eine Zahl eingeben, falls ich sie falsch geraten habe, damit ich mehr versuche habe als User. |
+| 2    |User muss erneut eine beliebige Zahl eingeben, falls sie zu hoch oder zu tief ist. | Funktionell | Als ein User möchte ich erneut eine Zahl eingeben, falls ich sie falsch geraten habe, damit ich mehr versuche habe als User. |
 | 3    |User kann am Ende entscheiden, ob er nochmal spielen möchte oder nicht. | Funktionell | Als ein User möchte ich eingeben können, ob ich erneut spielen möchte oder das Spiel beenden möchte, damit es simple bleibt. |
 | 4    | User bekommt eine Verabschiedung, wenn er sich entscheidet zu gehen| Funktionell | Als ein User möchte ich verabschiedet werden damit ich mich respektiert fühle. |
 | 5    | User bekommt neue Zahl, wenn er Spiel wiederholt. | Funktionell | Als User möchte ich, wenn ich das Spiel neu starte, eine neue Nummer haben und nicht die gleiche wie beim vorherigen Spiel. |
